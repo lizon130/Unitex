@@ -47,11 +47,11 @@
 </div>
 <br>
 
-<div class="brands-area d-flex align-items-center justify-content-between" >        
-    <div class="single-brands-logo">
+<div class="brands-area d-flex align-items-center justify-content-center">        
+    <div class="single-brands-logo text-center">
 
         <div class="row">
-            <div class="col-md-12 text-center" >
+            <div class="col-md-12">
                 <img src="{{asset('home/img/about-img/shhh.png')}}" alt="">
             </div>
         </div>
@@ -72,13 +72,10 @@
                 <img style="margin-right: 20px" src="{{asset('home/img/about-img/c-11.png')}}" alt="">
                 <img style="margin-right: 20px" src="{{asset('home/img/about-img/c-12.png')}}" alt="">
                 <img src="{{asset('home/img/about-img/c-13.png')}}" alt="">
-        
             </div>
         </div> 
-
-       
     </div>
-
 </div>
+
 
 @endsection
